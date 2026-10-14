@@ -1,3 +1,6 @@
+import dns from 'node:dns/promises';
+dns.setServers(['8.8.8.8', '1.1.1.1']);
+
 import { connectDB } from './config/database.js';
 import { config } from './config/config.js';
 import { queueManager } from './queues/queueManager.js';
