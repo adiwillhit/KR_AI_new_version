@@ -11,7 +11,7 @@ async function startServer() {
   await queueManager.init();
 
   // 3. Start HTTP server
-  const server = app.listen(config.port || 5000, () => {
+  const server = app.listen(config.port, () => {
     console.log(`[Server] Running in ${config.env} mode on port ${config.port}`);
     console.log(`[Server] API available at http://localhost:${config.port}/api`);
   });
