@@ -1,4 +1,4 @@
-# MeetMind — AI-Based Universal Meeting Assistant
+# KRAI — AI-Based Universal Meeting Assistant
 
 MeetMind is an end-to-end, privacy-conscious AI Meeting Assistant engineered with real-world software architecture practices. It processes audio, video, or text meeting transcripts, generates executive summaries, tracks decisions, extracts actionable commitments with owners and deadlines, identifies risks and blockers, provides citation-backed conversational RAG (Retrieval-Augmented Generation) Q&A, and supports one-click meeting minutes export and automated email follow-ups.
 
